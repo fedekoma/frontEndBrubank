@@ -1,0 +1,186 @@
+/* reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset */
+
+#header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 50px 0px 50px;
+}
+
+#header img {
+	width: 150px;
+}
+#header nav ul li {
+	display: block;	
+}
+
+#header nav ul li a {
+	text-decoration: none;
+	color: #614AD9;
+}
+
+#mainContent {
+	width: 100%;
+	/* background-color: lightgoldenrodyellow; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px 10px 0px 10px;
+}
+
+
+
+#secondContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+#secondContent div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+	min-width: 315px;
+	max-width: 360px;	
+	height: 200px;	
+	background: linear-gradient(180deg, rgba(250,250,250,1) 0%, rgba(224,224,224,1) 100%);
+	border-radius: 10px;
+	/* border: 1px solid lightgrey; */
+	padding: 25px;
+	margin: 25px 5px 0px 5px;
+	
+
+}
+
+#secondContent img {
+	width: 50px;
+}
+
+#footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: auto;	
+	background-color: #f6f7f8;
+	padding: 25px 0px 25px 0px;
+	color: grey;
+	font-size: 0.95rem;
+}
+
+#footer img {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+.footerLinksNav {
+	margin-bottom: 15px;
+	color: rgb(52, 51, 72);
+	width: 200px;
+	text-align: left;
+}
+
+.footerLinksLegal {
+	margin-bottom: 15px;
+	color: rgb(52, 51, 72);
+	width: 200px;
+	text-align: left;
+}
+
+.igFooterBox {
+	display: flex;
+	flex-direction: row;	
+}	
+
+#preFooter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	background-color: #f6f7f8;
+	margin-top: 15px;
+}
+/*imagenes*/
+
+.descargaApp {
+	width: 200px;
+	margin:25px 15px 0px 0px;
+}
+
+
+.brubankLogo {
+	width: 150px;
+}
+
+.igFooter {
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+}
+
+.descargaAppFooter {
+	width: 200px;
+}
+
+.imgPrincipal {
+	width: 100%;
+	max-width: 400px;
+	margin-top:25px ;
+}
+
+.imgLeyenda {
+	width: 200px;
+}
+
+/*imagenes*/
+
+/*fonts*/
+
+.titSize {
+	/*font-family: Roboto:wght@900;*/
+	color: #343348;
+	font-size: 2rem;
+	line-height: 2rem;
+	font-weight: bolder;	
+	margin-bottom: 25px;
+}
+
+.bigSize {
+	font-size: 1.5rem;
+	
+}
+
+.mediumSize {
+	color: lightgray;
+}
+
+.regularSize {
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+	display: none;
+}
+
+/*fonts*/
