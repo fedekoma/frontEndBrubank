@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>brubankResponsive</title>
-	<link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="./css/styleDesk.css">
-	
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styleDesk.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <title>nuevaBru</title>
 </head>
 <body>
-	
-	<div class="fondo">	
 
-	<header id="header">
-	
-	<a href="#">
-		<img src="./img/bruLogo.png" alt="brubankLogo">
-	</a>
 
-	<nav>
-		<ul>
-			<li><a href="#">Precios</a></li>
-			<li><a href="#">Seguridad</a></li>
-			<li><a href="#">Quienes Somos</a></li>
-			<li><a href="#">Ayuda</a></li>
-			<li><a href="#" class="roboOextravio">Robo o Extravio</a></li>
-		</ul>
-	</nav>
 
-	<!-- <span></span> -->
 
-</header>
+
+<div class="overlay">
+    
+    <a href=""><img src="./img/bruLogo.png" alt="Logo" class="logoHeader"></a>
+    <label for="toggle"></label>
+</div>
+
+<input type="checkbox" id="toggle" name="toggle">
+<div class="verticalNav">
+    <a href="/">Nosotros</a>
+    <a href="/">Seguridad</a>
+    <a href="/">Precios</a>
+    <a href="/">Ayuda</a>
+    <a href="/">Robo o extravio</a>
+</div>
+
+<!-- <div class="kittens">Kittens love pure CSS code</div>
+<div>
+    <img src="http://placekitten.com/200/150" alt="Kitten Pic">
+</div> -->
+
+
+<!-- <nav>  
+<ul id="menu">
+<a href="#"><li>Nosotros</li></a>
+<a href="#"><li>Seguridad</li></a>
+<a href="#"><li>Precios</li></a>
+<a href="#"><li>Ayuda</li></a>
+<a href="https://erikterwan.com/" target="_blank"><li>Robo o extravio</li></a>
+</ul>
+</nav> -->
+
+<!-- </header> -->
 
 <main id="mainContent">
 	
@@ -48,91 +64,80 @@
 	<img src="./img/imgPrincipal.png" alt="" class="imgPrincipal">	
 </main>
 
+
 <section id="secondContent">
 		
-		<div>
-		<img src="./img/iconBank.png" alt="">
-		<p class="bigSize">Sin sorpresas</p>
-		<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Voluptas.</p>
-		</div>
+    <div>
+    <img src="./img/iconBank.png" alt="">
+    <p class="bigSize">Sin sorpresas</p>
+    <p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Voluptas.</p>
+    </div>
 
-		<div>
-		<img src="./img/iconBank.png" alt="">
-		<p class="bigSize">Aprobado</p>
-		<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Voluptas.</p>
-		</div>
+    <div>
+    <img src="./img/iconBank.png" alt="">
+    <p class="bigSize">Aprobado</p>
+    <p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Voluptas.</p>
+    </div>
 
-		<div>
-		<img src="./img/iconBank.png" alt="">
-		<p class="bigSize">Sin costos</p>
-		<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Voluptas.</p>
-		</div>
-
-		
+    <div>
+    <img src="./img/iconBank.png" alt="">
+    <p class="bigSize">Sin costos</p>
+    <p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Voluptas.</p>
+    </div>		
 
 </section>
 
+    <section id="preFooter">
+        
+        <a href=""><img src="./img/bruLogo.png" alt="Logo" class="logoFooter"></a>        
+        <a href=""><img src="./img/iconInstagram.png" alt="Instagram" class="socialInstagram"></a>
+        <a href=""><img src="./img/iconInstagram.png" alt="Instagram" class="socialInstagram"></a>
+        <a href=""><img src="./img/iconInstagram.png" alt="Instagram" class="socialInstagram"></a>
+        
+    </section>
+   
+   <footer id="footerStyle">
+        <div class="footerNav">
+        <p><a href="#"><strong>Navegación</strong></a></p> 
+        <p><a href="#">¿Quiénes somos?</a></p>
+        <p><a href="#">Precios</a></p>
+        <p><a href="#">Seguridad</a></p>
+        <p><a href="#">Ayuda</a></p>
+        <p><a href="#">Robo o extravío</a></p>
+        <p><a href="#">Cuenta menores</a></p>
+        </div>
+    
+        <div class="footerLegal">
+        <p><a href="#"> <strong>Legales</strong></a></p>	
+        <p><a href="#">Régimen de transparencia</a></p>
+        <p><a href="#">Usuario Bancario</a></p>
+        <p><a href="#">Código de Conducta</a></p>
+        <p><a href="#">Información al usuario financiero</a></p>
+        <p><a href="#">Cuenta Gratuita Universal</a></p>
+        <p><a href="#">Código de Gobierno Societario</a></p>
+        <p><a href="#">Estados contables</a></p>
+        <p><a href="#">Identificacion PEP's</a></p>
+        <p><a href="#">FATCA</a></p>
+        <p><a href="#">Términos y condiciones</a></p>	
+        </div>
+    
+        <div class="alinear">
+        <img src="./img/leyendaFooter.png" alt="" class="imgLeyenda">
+        </div>
+    
+        <div class="footerLinks">
+        <p><a href="#"><strong>Unite</strong></a></p>
+        <img src="./img/appStore.svg" alt="" class="descargaAppFooter">
+        <img src="./img/googlePlay.svg" alt="" class="descargaAppFooter">
+        </div>
 
-	<section id="preFooter">	
-
-	<a href="#">
-	<img src="./img/bruLogo.png" alt="brubankLogo" class="brubankLogo">
-	</a>
-
-	<div class="igFooterBox">
-	<a href="#">
-	<img src="./img/iconInstagram.png" alt="igFooter" class="igFooter">
-	</a>
-	
-	<a href="#">
-	<img src="./img/iconInstagram.png" alt="igFooter" class="igFooter">
-	</a>
-
-	<a href="#">
-	<img src="./img/iconInstagram.png" alt="igFooter" class="igFooter">
-	</a>
-	</div>
-
-</section>
 
 
-<footer id="footer">
+   </footer>
 
-	<div class="footerLinksNav">
-	<p><strong>Navegación</strong></p>
-	<p>¿Quiénes somos?</p>
-	<p>Precios</p>
-	<p>Seguridad</p>
-	<p>Ayuda</p>
-	<p>Robo o extravío</p>
-	<p>Cuenta menores</p>
-	</div>
-
-	<div class="footerLinksLegal">
-	<p><strong>Legales</strong></p>	
-	<p>Régimen de transparencia</p>
-	<p>Usuario Bancario</p>
-	<p>Código de Conducta</p>
-	<p>Información al usuario financiero</p>
-	<p>Cuenta Gratuita Universal</p>
-	<p>Código de Gobierno Societario</p>
-	<p>Estados contables</p>
-	<p>Identificacion PEP's</p>
-	<p>FATCA</p>
-	<p>Términos y condiciones</p>	
-	</div>
-
-	<img src="./img/leyendaFooter.png" alt="" class="imgLeyenda">
-
-	<div class="footerLinks">
-	<p><strong>Unite</strong></p>
-	<img src="./img/appStore.svg" alt="" class="descargaAppFooter">
-	<img src="./img/googlePlay.svg" alt="" class="descargaAppFooter">
-	</div>
-	
-</footer>
-
-</div>
+   <div class="Copyright">
+    <p>BRUBANK S.A.U. Agente de Liquidación y Compensación – Propio. Comisión Nacional de Valores: nro. de matrícula 1030.</p>
+    </div>
 
 </body>
 </html>

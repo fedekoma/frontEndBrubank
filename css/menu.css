@@ -1,0 +1,82 @@
+.logoHeader {
+    width: 150px;
+    
+}
+
+
+.overlay {
+    
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    padding: 0px 30px 0px 30px;
+}
+
+.overlay > label {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    top: -60px;
+    left: 95%;
+    width: 30px;
+    height: 16px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.overlay > label::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 5px;
+    border-top: 2px solid #000;
+}
+
+.verticalNav {
+    color: #333;
+    position: relative;
+    top: -82px;
+    height: 162px;
+    padding: 20px 20px 20px 41px;
+    
+    font-size: 22px;
+    /* box-sizing: border-box; */
+    background-color: #ddd;
+    transition: top 600ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+}
+
+.verticalNav a {
+    display: block;
+    color: #111;
+    text-decoration: none;
+}
+
+/* .verticalNav a:hover {
+    width: 120px;
+    background-color: #fff;
+} */
+
+/* .kittens {
+    padding-bottom: 10px;
+    margin-left: 115px;
+    background-color: #fff;
+    margin-top: -30px;
+    transition: margin-top 600ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+} */
+
+
+
+#toggle {
+    position: absolute;
+    visibility: hidden;
+}
+
+#toggle:checked ~ .verticalNav {
+    top: 80px;
+}
+
+#toggle:checked  ~ #mainContent {
+    margin-top: 135px;
+}
