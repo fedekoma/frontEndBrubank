@@ -80,3 +80,7 @@
 #toggle:checked  ~ #mainContent {
     margin-top: 135px;
 }
+
+#toggle:checked  ~ main {
+    margin-top: 80px;
+}
