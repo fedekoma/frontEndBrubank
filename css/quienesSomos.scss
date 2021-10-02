@@ -1,0 +1,50 @@
+$font__small: 2em - 1em;
+$font__regular: 1em + 0.2em;
+$font__big: 1em + 0.5em;
+$font__bigger: 2em + 0.7em;
+$color__small: rgb(179, 186, 200);
+$color__regular: rgb(106, 117, 135);
+$color__big: #fff;
+$color__bigger:rgb(52, 51, 72);
+$section__color:rgb(97, 74, 217);
+
+main {
+    section {
+        display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	    background-color: $section__color;
+	    color: $color__big;
+	    width: 100%;
+	    height: 300px;
+        font-size: $font__big;	
+    }
+    div {
+        padding: 20px 20px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    h2 {
+        font-size: $font__small;
+        color: $color__small;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: $font__bigger;
+        color: $color__bigger;        
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: $font__regular;
+        color: $color__regular;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    img {
+        width: 100%;
+    }
+}

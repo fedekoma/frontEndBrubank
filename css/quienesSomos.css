@@ -1,0 +1,50 @@
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #614ad9;
+  color: #fff;
+  width: 100%;
+  height: 300px;
+  font-size: 1.5em;
+}
+
+main div {
+  padding: 20px 20px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+main h2 {
+  font-size: 1em;
+  color: #b3bac8;
+  margin-bottom: 15px;
+}
+
+main h3 {
+  font-size: 2.7em;
+  color: #343348;
+  margin-bottom: 15px;
+}
+
+main p {
+  font-size: 1.2em;
+  color: #6a7587;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+main img {
+  width: 100%;
+}
+/*# sourceMappingURL=quienesSomos.css.map */

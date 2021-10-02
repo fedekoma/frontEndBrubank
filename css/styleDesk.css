@@ -1,31 +1,27 @@
 @media (min-width: 1000px) {
 
 .fondo { 
-
 	background: url(../img/blob.svg);
 	background-repeat: no-repeat;
 	background-position-x: 800px;
 	background-position-y: -850px;
 	animation: mymove 30s infinite;
-	
-
 }
 
 @keyframes mymove {
 	50% {background-position: center;}
-  }
+}
 
-	#header {
+#header {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
 	padding: 0px 140px;
 	width: 100%;
-
 }
 
-
+/*OCULTANDO MENU HAMBURGUESA*/
 .overlay {
 	display:none;
 }
@@ -33,6 +29,8 @@
 .verticalNav {
 	display:none;
 }
+/*OCULTANDO MENU HAMBURGUESA*/
+
 
 #header nav ul li {
 	display: inline-block;	
@@ -43,31 +41,13 @@
 	margin-right: 15px;
 }
 
-
 #header nav ul li a:hover {	
 	color: tomato;	
 }
 
-/* #header span {
-	border-radius: 350px 0px 0px 300px;
-	position: absolute;
-	top: 80px;
-	right: -0px;
-	z-index: -100;
-	background-color: #f6f7f8;
-	width: 650px;
-	height: 450px;
-	transform: rotate(0deg);
-	
-} */
-
 #header img {
 	width: 150px;
 }
-
-
-
-
 
 #mainContent {
 	display: flex;
@@ -81,11 +61,9 @@
 	margin-top:30px;
 }
 
-
 #secondContent {
 	display: flex;
-	flex-direction: row;
-	/* justify-content: center; */
+	flex-direction: row;	
 	gap: 10px;
 	align-items: center;
 	margin: 100px 0px 100px 0px;
@@ -94,9 +72,12 @@
 
 #secondContent div {
 	width: 360px;
-	height: 200px;
-	
-	
+	height: 200px;	
+}
+
+#preFooter {
+	justify-content: start;
+	padding: 40px 255px;
 }
 
 #footerStyle {
@@ -105,8 +86,7 @@
 	align-items: flex-start;
 	justify-content: space-evenly;
 	width: 100%;		
-	background-color: #f6f7f8;
-	/* padding: 25px 50px 25px 50px; */
+	background-color: #f6f7f8;	
 	padding: 0px 140px;
 }
 
@@ -114,6 +94,11 @@
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 15px;
+}
+
+#footerStyle p a {
+	margin-bottom: 15px;
+	font-size: 14px;
 }
 
 .footerLinksNav {
@@ -130,36 +115,20 @@
 	text-align: left;
 }
 
-
-
-#footerStyle p a {
-	margin-bottom: 15px;
-	font-size: 14px;
-}
-
-#preFooter {
-	justify-content: start;
-	padding: 40px 255px;
-}
-
-.alinear { 
+.alinearLeyendaFooter { 
     margin-top:40px;
-
 }
 
-/*imagenes*/
 
+/*ESTILOS PARA IMAGENES*/
 .imgPrincipal {
 	width: 600px;
 	max-width: 600px;
 	margin-top: 0px;
 }
+/*ESTILOS PARA IMAGENES*/
 
-
-/*imagenes*/
-
-/*fonts*/
-
+/*ESTILOS PARA FONTS*/
 .titSize {
 	font-size: 3.5rem;
 	line-height: 3rem;
@@ -177,13 +146,11 @@
 	padding: 15px;
 	border-radius: 5px;
 }
-
-/*fonts*/
+/*ESTILOS PARA FONTS*/
 
 .Copyright {
     padding: 50px;
 }
-
 
 
 }
