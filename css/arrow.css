@@ -26,7 +26,7 @@ h1 {
     font-weight: lighter;
 }
 
-button {
+.botones {
     width: 250px;
     height: 50px;
     background-color: slateblue;
@@ -56,6 +56,7 @@ button {
         max-width:600px;
         height: 150px;
         border: 1px solid grey;
+        
     }
 
     .no_of_speakers_radio_button label {
