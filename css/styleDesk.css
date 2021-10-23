@@ -31,12 +31,17 @@
 }
 /*OCULTANDO MENU HAMBURGUESA*/
 
+.menuHamburguesa {
+	display: none;
+}
+
 
 #header nav ul li {
 	display: inline-block;	
 }
 
 #header nav ul li a {
+	color: #614ad9;
 	text-decoration: none;
 	margin-right: 15px;
 }
@@ -151,6 +156,38 @@
 .Copyright {
     padding: 50px;
 }
+
+
+#second {
+	
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 15px;
+
+}
+.second {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 20px;
+	padding: 20px 20px;
+  }
+  
+  .second img {
+	width: 500px;
+  }
+  
+
+  #precios {
+	max-width: 80%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
 
 
 }

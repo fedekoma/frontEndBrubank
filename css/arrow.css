@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+
+/*AGREGADOS POR MI*/
+.radusTop {
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.raiusBottom {
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.font_size_20 {
+    width: 600px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    background-color: slateblue;
+    border: 0px;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}
+
+/*AGREGADOS POR MI*/
+
+
+
+.no_of_speakers_radio_button {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 40px;
+        max-width:600px;
+        height: 150px;
+        border: 1px solid grey;
+    }
+
+    .no_of_speakers_radio_button label {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .no_of_speakers_radio_button label span {          
+        
+        font-size: 15px;
+        margin: auto;
+    }
+
+    .no_of_speakers_radio_button input {
+        margin-left: 70%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .no_of_speakers_radio_button input:checked + span {
+        text-align: center;
+    }
+
+    .no_of_speakers_radio_button input:not(:checked + span) {
+        background: transparent;
+    }
+
+    .no_of_speakers_radio_button:hover{
+        background: #ebeff1;
+    }

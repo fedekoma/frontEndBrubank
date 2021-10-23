@@ -6,7 +6,9 @@
 	box-sizing: border-box;
 	list-style: none;
 	font-family: 'Roboto', sans-serif;
+	
 }
+
 
 table {
 	border-collapse: collapse;
@@ -14,6 +16,10 @@ table {
 }
 
 /* reset */
+
+
+
+
 
 .fondo { 
 	background: url(../img/blob.svg);
@@ -30,6 +36,10 @@ table {
 
 #header {
     display: none;
+}
+
+.logoPrincipal {
+	width: 150px;
 }
 
 #mainContent {
@@ -99,7 +109,7 @@ table {
 	border-radius: 10px;	
 	padding: 25px;
 	margin: 25px 5px 0px 5px;
-    gap:15px;
+    
 }
 
 #secondContent img {
@@ -194,6 +204,7 @@ main {
 
 
 /*faqs*/
+
 #headFaqs {
 	background-color: rgb(97, 74, 217);
 	height: 250px;
@@ -207,6 +218,35 @@ main {
 #cardFaqs {
 	background-color: #f3f5f7;
 	width: 97%;	
+}
+
+#cardFaqs h4 {
+	color: #614ad9;
+	font-size: 17px;
+}
+
+#cardFaqs h5 {
+	color:gray;
+	font-size: 17px;
+}
+
+#cardFaqs span {
+	color:gray;
+	font-size: 13px;
+}
+
+#alinearFaqs {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:flex-start;
+	padding-left: 5%;
+	gap: 60px;
+}
+
+#alinearFaqs img {
+	width: 40px;
+
 }
 
 #fondoBody {
@@ -228,3 +268,77 @@ main {
 	text-decoration: none;
 	color: white;
 }
+
+
+
+#second {
+	
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+
+}
+
+.second {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 20px;
+	padding: 20px 20px;
+  }
+  
+  .second img {
+	width: 100%;
+  }
+
+  .second p {
+	  color: rgb(106, 117, 135);
+	  font-size: 1.2em;
+	  line-height: 27px;
+  }
+
+  .second h2 {
+	  color: rgb(52, 51, 72);
+	  font-size: 2em;
+	  font-weight: 900;
+  }
+
+#fontAcordion {
+	font-size: 30px;
+}
+
+#precios {
+	max-width: 100%;
+	margin: 10px 15px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background-color:#fff;
+	padding: 0px 15px;
+	/* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%); */
+	box-shadow: 0 0 90px rgba(0, 0, 0, 0.1)  ; 
+	-webkit-box-shadow: 0 0 90px rgba(0, 0, 0, 0.1)  ; 
+	-moz-box-shadow: 0 0 90px rgba(0, 0, 0, 0.1)  ; 
+}
+
+#precios div {
+	width: 70%;
+}
+
+.numeroPrecio {
+	font-size: 30px;
+	
+	color: #614ad9;
+}
+
+.bigSize {
+	font-size: 22px;
+	font-weight: bold;
+}
+
